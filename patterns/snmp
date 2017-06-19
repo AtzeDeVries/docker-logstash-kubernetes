@@ -1,0 +1,4 @@
+# Logstash GROK patterns for SNMPGET messages
+
+SYNTAX_INT (INTEGER|Timeticks|Counter32|Counter64|Gauge32|Gauge64)
+SYNTAX_STR (STRING|IpAddress)
